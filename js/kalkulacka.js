@@ -66,14 +66,16 @@ export class Kalkulacka extends Component {
             {" měsíců"}
           </div>
           <div>
-            <label htmlFor="vyska">Výška (cm)</label>
+            <label htmlFor="vyska">Výška</label>
             <br />
             <input className="calc-height-input" type="number" min="0" max="230" value={height} onChange={this.handleInput} />
+            {" cm"}
           </div>
           <div>
-            <label htmlFor="vaha">Váha (kg)</label>
+            <label htmlFor="vaha">Váha</label>
             <br />
             <input className="calc-weight-input" type="number" min="0" max="160" value={weight} onChange={this.handleInput} />
+            {" kg"}
           </div>
         </div>
         <div className="calc-result">
