@@ -66,7 +66,7 @@ Highcharts.chart("graf-obezita-trida", {
     href: "http://zdravagenerace.cz/",
   },
   xAxis: {
-    categories: ["Chudí", "Střední třída", "Bohatí"],
+    categories: ["Chudší", "Střední třída", "Bohatší"],
     crosshair: true,
   },
   tooltip: {
