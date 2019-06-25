@@ -1,0 +1,106 @@
+#kalkulacka-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#kalkulacka {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 300px;
+  font-family: sans-serif;
+}
+
+.calc-gender-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.calc-title {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.calc-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-content > div {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.calc-year-input {
+  width: 40px;
+}
+
+.calc-month-input {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.calc-result {
+  margin-top: 15px;
+}
+
+/* based on bootstrap buttons */
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-nonsel {
+  background-color: #ececec;
+  border-color: #ececec;
+}
