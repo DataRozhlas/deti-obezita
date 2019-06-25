@@ -1,7 +1,7 @@
 title: "Čeští školáci tloustnou, nadváha trápí hlavně ty z chudých rodin. Spočítejte si, jak jsou na tom vaše děti"
 perex: "Nadváhou nebo obezitou trpí každé šesté dítě od 11 do 15 let. Riziko obezity je přitom u dětí z chudších rodin oproti ostatním až trojnásobné. Nerovnost se projevuje i v tom, zda děti pravidelně snídají nebo jak často stolují s rodinou. Ukazuje to mezinárodní studie, jejíž českou část má na starosti olomoucká Univerzita Palackého."
-coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_large/public/uploader/profimedia-026141322_170822-073802_mos.jpg?itok=1qVFkKGb
-coverimg_note: "Počet obézních dětí v Česku roste (ilustrační foto) | Foto: Kwanchai Chai-udom, Stock Budget | Zdroj: Profimedia"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/uploader/weights_scales_fitne_190625-200346_zlo.jpg?itok=YiwFLS_C
+coverimg_note: "Váha (ilustrační foto) | Zdroj: <a href='https://pxhere.com/en/photo/592326'>pxhere</a> CC0"
 styles: []
 libraries: [] #jquery, d3, highcharts, datatables
 options: [noheader] #wide, noheader (, nopic)
