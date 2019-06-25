@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import { h, Component } from "preact";
 import { calculateBMI, calculateMBMI } from "./calculateBMI";
+/** @jsx h */
 
 export class Kalkulacka extends Component {
   constructor(props) {
@@ -37,7 +38,6 @@ export class Kalkulacka extends Component {
     } = this.state;
     const age = Number(years) + months / 12;
     const bmi = calculateBMI(gender, age, height, weight);
-    console.log(bmi);
     const mbmi = calculateMBMI(height, weight);
 
     const displayMBMI = String(Math.round(mbmi * 100) / 100).replace(".", ",");
@@ -50,7 +50,7 @@ export class Kalkulacka extends Component {
     };
 
     return (
-      <>
+      <div>
         <div className="calc-title">Kalkulačka dětské nadváhy</div>
         <div className="calc-gender-buttons">
           <button type="button" className={`calc-gender-button btn ${(gender === "m" ? "btn-primary" : "btn-nonsel")}`} value="m" onClick={this.handleInput}>Chlapec</button>
@@ -81,16 +81,16 @@ export class Kalkulacka extends Component {
         <div className="calc-result">
           {(mbmi > 0 && mbmi < Infinity)
             ? (
-              <>
+              <div>
                 {"BMI "}
                 <span className="bold">{displayMBMI}</span>
                 {", to je u vybraného pohlaví a věku "}
                 <span className="bold">{displayBMI()}</span>
                 {"."}
-              </>
+              </div>
             ) : "Neplatný vstup!"}
         </div>
-      </>
+      </div>
     );
   }
 }
